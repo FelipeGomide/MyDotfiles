@@ -1,0 +1,53 @@
+{
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"editor.semanticHighlighting.enabled": false,
+	"terminal.integrated.minimumContrastRatio": 1,
+	"catppuccin.accentColor": "green",
+	
+	"catppuccin.customUIColors": {
+		"mocha": {
+			"statusBar.foreground": "accent",
+		},
+	},
+	
+	"catppuccin.workbenchMode": "flat",
+	"catppuccin.bracketMode": "neovim",
+	"catppuccin.italicKeywords": false,
+	"catppuccin.boldKeywords": false,
+
+	"window.titleBarStyle": "custom",
+	
+	//Basic text editor appearance
+	"editor.minimap.enabled": false,
+	"editor.renderControlCharacters": false,
+	"editor.renderWhitespace": "none",
+	"editor.inlayHints.enabled": "off",
+
+	//File explorer settings
+	"workbench.layoutControl.enabled": false,
+	"workbench.iconTheme": "catppuccin-perfect-mocha",
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.sideBar.location": "right",
+
+	//Font settings
+	"editor.fontFamily": "'Cascadia Mono NF'",
+	"editor.fontLigatures": "'calt', 'ss01', 'ss19'",
+	"terminal.integrated.fontFamily": "Iosevka Term",
+	
+	//Python Environment
+	"python.condaPath": "~/miniconda3",
+	"python.terminal.activateEnvironment": false,
+
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"C_Cpp.default.compilerPath": "/usr/bin/g++",
+	"explorer.autoReveal": false,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"breadcrumbs.enabled": false,
+	"python.createEnvironment.trigger": "off",
+	"editor.unicodeHighlight.allowedCharacters": {
+		"‘": true,
+		"’": true
+	},
+	"editor.stickyScroll.enabled": false,
+	"rainbow_csv.enable_sticky_header": false
+}

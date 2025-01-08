@@ -1,0 +1,51 @@
+# Set character name every game
+OPTIONS=name:player
+
+# Simple options for pet names
+OPTIONS=catname:Frajola
+OPTIONS=dogname:Snoopy
+OPTIONS=horsename:Spartacus
+MSGTYPE=hide "You swap places with your .*"
+
+# Movement with VIM motions
+OPTIONS=number_pad:0
+
+# Change windowing system
+OPTIONS=windowtype:curses
+#OPTIONS=windowtype:tty
+#OPTIONS=windowtupe:X11
+
+# Curses Options
+OPTIONS=align_status:left
+OPTIONS=align_message:bottom
+OPTIONS=windowborders:2
+OPTIONS=statuslines:2
+
+# Change font encoding for ASCII
+OPTIONS=symset:IBMgraphics
+#OPTIONS=symset:curses
+
+# Some quality of life
+OPTIONS=perm_invent:TRUE
+OPTIONS=wraptext:TRUE
+
+## Character Menu Colors
+# For how many turns does changes in up/dows persists
+OPTIONS=statushilites:10
+# HP
+OPTIONS=hitpointbar
+OPTIONS=hilite_status:hitpoints/100%/green&normal
+OPTIONS=hilite_status:hitpoints/<100%/green&normal
+OPTIONS=hilite_status:hitpoints/<66%/yellow&normal
+OPTIONS=hilite_status:hitpoints/<50%/orange&normal
+OPTIONS=hilite_status:hitpoints/<33%/red&bold
+OPTIONS=hilite_status:hitpoints/<15%/red&inverse
+# Build and Gold
+OPTIONS=hilite_status:characteristics/up/green/down/red
+OPTIONS=hilite_status:gold/always/yellow/down/brown
+# Conditions
+OPTIONS=hilite_status:condition/termill/red&inverse
+OPTIONS=hilite_status:condition/foodpois/red&inverse
+OPTIONS=hilite_status:condition/slime/red&inverse
+
+# Look for Ibm 3270 (HC) in Gogh color schemes
